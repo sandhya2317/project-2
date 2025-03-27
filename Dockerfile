@@ -1,4 +1,4 @@
-FROM tomcat:9-jdk17
+FROM tomcat:9-jdk11
 
 RUN useradd -ms /bin/bash jenkins
 RUN echo "jenkins ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
